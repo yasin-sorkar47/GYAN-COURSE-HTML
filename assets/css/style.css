@@ -1,0 +1,499 @@
+/* common css start */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&family=Lumanosimo&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Oswald', sans-serif;  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+}
+
+.contaner {
+  width: 1170px;
+  margin: 0 auto;
+}
+/* common css End */
+
+/* topber start */
+
+.topber {
+  background-color: #2d3e50;
+  height: 40px;
+}
+
+.topber .contaner {
+  overflow: hidden;
+}
+
+.topber .contact,
+.topber .login {
+  width: 50%;
+  float: left;
+}
+
+.topber .contact span,
+.topber .contact a {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 40px;
+  margin-right: 15px;
+}
+
+.topber .login {
+  text-align: right;
+}
+
+.topber .login span,
+.topber .login a {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 40px;
+}
+
+.topber .login a:hover {
+  color: #fbaa33;
+}
+/* topber end */
+
+/* manue contaner start */
+.manue {
+  height: 100px;
+  overflow: hidden;
+}
+
+.manue .manue-contanet .logo,
+.manue-contanet .list,
+.manue-contanet .list .itams,
+.manue-contanet .get {
+  float: left;
+}
+
+.manue .manue-contanet .logo {
+  width: 30%;
+}
+.manue-contanet .list {
+  width: 50%;
+}
+
+.manue .manue-contanet .list li {
+  margin-right: 50px;
+  line-height: 100px;
+  font-size: 16px;
+  color: #2d3e50;
+}
+
+.manue .manue-contanet .list li:hover {
+  color: #fbaa33;
+}
+
+.manue-contanet .get {
+  width: 20%;
+  text-align: right;
+}
+
+.manue .manue-contanet .get a {
+  line-height: 100px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #fbaa33;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* manue contaner end */
+
+/* banner contaner start */
+.banner {
+  background-image: url(../images/banner1.png);
+  background-position: 90%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+.banner .banner-contaner {
+  padding-top: 130px;
+  box-sizing: border-box;
+}
+
+.banner .banner-contaner span {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.banner .banner-contaner .text {
+  font-size: 52px;
+  color: #ffffff;
+}
+.banner .banner-contaner p {
+  font-size: 14px;
+  color: #ffffff;
+}
+.banner .banner-contaner a {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #fbaa33;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.banner .banner-contaner span a {
+  background-color: #2d3e50;
+}
+/* banner contaner end */
+/* onlin-class start */
+.onlin-class .class .box {
+  width: 370px;
+  height: 190px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  position: relative;
+  top: -90px;
+  float: left;
+  background-color: #f5f5f5;
+}
+
+.onlin-class .class .box-1 {
+  margin-right: 60px;
+}
+
+.onlin-class .class .box .icon,
+.onlin-class .class .box .text {
+  width: 370px;
+  height: 95px;
+  text-align: center;
+}
+
+.onlin-class .class .box .icon {
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.onlin-class .class .box .text {
+  padding: 10px;
+  box-sizing: border-box;
+  line-height: 30px;
+}
+
+.onlin-class .class .box .text span {
+  font-size: 24px;
+  color: #444444;
+}
+
+.onlin-class .class .box .text p a {
+  font-size: 14px;
+  color: #999999;
+}
+
+.onlin-class .class .box .text p a:hover {
+  color: #fbaa33;
+}
+/* onlin-class end */
+/* About us start */
+.About .About-us {
+  text-align: center;
+}
+
+.About .About-us h3 {
+  font-size: 32px;
+  color: #2d3e50;
+}
+.About .About-us p {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* About us end */
+
+/* larn start */
+
+.larn-read {
+  overflow: hidden;
+}
+.larn .read .image,
+.larn .read .text {
+  width: 50%;
+  height: 380px;
+  float: left;
+  margin-top: 70px;
+}
+.larn .read .image img {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.larn .read .text {
+  font-size: 14px;
+  color: #444444;
+  text-align: justify;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+
+.larn .read .text a {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #fbaa33;
+  border-radius: 5px;
+  padding: 13px;
+  margin-right: 7px;
+}
+
+.larn .read .text span a {
+  background-color: #2d3e50;
+}
+
+/* larn end */
+/* teachers start */
+.teachers {
+  background-color: #2d3e50;
+  height: 170px;
+}
+.teachers .teacher-cection {
+  overflow: hidden;
+}
+.teachers .our-teacher .teacher {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.teachers .our-teacher .teacher span {
+  font-size: 40px;
+  color: #ffffff;
+}
+.teachers .our-teacher .teacher p {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* teachers end */
+/* our courses start */
+.our-courses .course {
+  text-align: center;
+}
+.our-courses .course h3 {
+  font-size: 32px;
+  color: #2d3e50;
+}
+.our-courses .course p {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* our courses end */
+/* conduct-routine start */
+.routine {
+  overflow: hidden;
+}
+.conduct-routine .routine .box {
+  width: 31%;
+  height: 595px;
+  float: left;
+  background-color: #f5f5f5;
+}
+.conduct-routine .routine .middele {
+  margin: 0 3.5%;
+}
+.conduct-routine .routine .box .image {
+  height: 250px;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+.conduct-routine .routine .box .adress {
+  height: 90px;
+}
+.conduct-routine .routine .box {
+  overflow: hidden;
+}
+.conduct-routine .routine .box .adress .adress-part {
+  height: 90px;
+  float: left;
+}
+.conduct-routine .routine .box .adress .part1 {
+  width: 20%;
+}
+.conduct-routine .routine .box .adress .part2 {
+  width: 40%;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.conduct-routine .routine .box .adress .part2 span {
+  font-size: 15px;
+  color: #d2d2d2;
+}
+.conduct-routine .routine .box .adress .part2 p {
+  font-size: 18px;
+  color: #d2d2d2;
+}
+.conduct-routine .routine .box .adress .part1 img {
+  border-radius: 50%;
+}
+
+.conduct-routine .routine .box .adress .part3 {
+  width: 40%;
+}
+.conduct-routine .routine .box .adress .part3 {
+  text-align: right;
+}
+.conduct-routine .routine .box .adress .part3 i {
+  color: #fbaa33;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+.conduct-routine .routine .box .adress .part3 p {
+  font-size: 15px;
+  color: #d2d2d2;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.conduct-routine .routine .box .text {
+  height: 150px;
+}
+.conduct-routine .routine .box .text h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #222222;
+  margin-left: 10px;
+}
+
+.conduct-routine .routine .box .text .advanch {
+  color: #cb8110;
+}
+.conduct-routine .routine .box .text p {
+  font-size: 18px;
+  color: #bfbfbf;
+  margin-left: 10px;
+}
+
+.conduct-routine .routine .box .date {
+  height: 105px;
+}
+.conduct-routine .routine .box .date .date-part {
+  width: 33.33%;
+  height: 150px;
+  float: left;
+}
+.conduct-routine .routine .box .date .date-part h5 {
+  font-size: 15px;
+  color: #b0b0b0;
+  margin-left: 10px;
+}
+.conduct-routine .routine .box .date .date-part span {
+  font-size: 13px;
+  color: #ababab;
+  margin-left: 10px;
+}
+
+/* conduct-routine end */
+
+/* footer start  */
+footer {
+  background-color: #161616;
+  padding-top: 72px;
+  padding-bottom: 53px;
+  box-sizing: border-box;
+}
+
+footer .footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-logo {
+  max-width: 135px;
+}
+
+footer .footer-logo .icon {
+  max-width: 45px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+footer .footer-list {
+  margin-left: auto;
+}
+
+footer .footer-manue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-list ul {
+  display: flex;
+}
+
+footer .footer-list ul li a {
+  font-size: 14px;
+  color: #fff;
+  margin-right: 45px;
+}
+
+footer .footer-list .btn a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 15px;
+  display: block;
+  width: 250px;
+  height: 50px;
+  background-color: #e13020;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .spach {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+footer .footer-botton {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-icon {
+  margin-left: auto;
+}
+
+.footer-botton .text p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-botton .footer-icon i {
+  font-size: 24px;
+  color: #161616;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* footer end */
